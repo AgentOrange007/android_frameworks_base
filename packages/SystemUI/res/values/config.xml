@@ -99,17 +99,17 @@
     <bool name="quick_settings_wide">false</bool>
 
     <!-- The number of columns in the QuickSettings -->
-    <integer name="quick_settings_num_columns">3</integer>
+    <integer name="quick_settings_num_columns">6</integer>
 
     <!-- The number of rows in the QuickSettings -->
-    <integer name="quick_settings_max_rows">3</integer>
+    <integer name="quick_settings_max_rows">5</integer>
 
     <!-- The number of columns that the top level tiles span in the QuickSettings -->
     <integer name="quick_settings_user_time_settings_tile_span">1</integer>
 
     <!-- The default tiles to display in QuickSettings -->
     <string name="quick_settings_tiles_default" translatable="false">
-        wifi,bt,dnd,flashlight,rotation,battery,cell,airplane,cast
+        wifi,bt,caffeine,flashlight,dnd,battery,cell,airplane,cast
     </string>
 
     <!-- The minimum number of tiles to display in QuickSettings -->
@@ -254,10 +254,10 @@
     <bool name="enable_volume_ui">true</bool>
 
     <!-- Enable the default volume level warning dialog -->
-    <bool name="enable_safety_warning">true</bool>
+    <bool name="enable_safety_warning">false</bool>
 
     <!-- Whether to show operator name in the status bar -->
-    <bool name="config_showOperatorNameInStatusBar">false</bool>
+    <bool name="config_showOperatorNameInStatusBar">true</bool>
 
     <!-- Duration of the full carrier network change icon animation. -->
     <integer name="carrier_network_change_anim_time">3000</integer>
@@ -359,7 +359,7 @@
     <bool name="config_fadeDependingOnAmountSwiped">false</bool>
 
     <!-- Whether or not to show the expand button at the end of the notification header. -->
-    <bool name="config_showNotificationExpandButtonAtEnd">false</bool>
+    <bool name="config_showNotificationExpandButtonAtEnd">true</bool>
 
     <!-- Whether or the notifications should be clipped to be reduced in height if it has been
          scrolled to the top of the screen. -->
@@ -451,7 +451,7 @@
     <!-- Screenshot editing default activity.  Must handle ACTION_EDIT image/png intents.
          Blank sends the user to the Chooser first.
          This name is in the ComponentName flattened format (package/class)  -->
-    <string name="config_screenshotEditor" translatable="false"></string>
+    <string name="config_screenshotEditor" translatable="true"></string>
 
     <!-- On debuggable builds, alert the user if SystemUI PSS goes over this number (in kb) -->
     <integer name="watch_heap_limit">256000</integer>

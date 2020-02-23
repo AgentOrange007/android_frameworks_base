@@ -312,7 +312,7 @@
     <string name="config_navBarLayoutQuickstep" translatable="false">back[1.7WC];home;contextual[1.7WC]</string>
     <string name="config_navBarLayoutHandle" translatable="false">back[40AC];home_handle;ime_switcher[40AC]</string>
 
-    <bool name="quick_settings_show_full_alarm">false</bool>
+    <bool name="quick_settings_show_full_alarm">true</bool>
 
     <!-- Whether to show a warning notification when device's skin temperature is high. -->
     <integer name="config_showTemperatureWarning">0</integer>
@@ -338,7 +338,7 @@
     <bool name="config_enableNotificationShadeDrag">true</bool>
 
     <!-- Whether to show activity indicators in the status bar -->
-    <bool name="config_showActivity">false</bool>
+    <bool name="config_showActivity">true</bool>
 
     <!-- Whether or not the button to clear all notifications will be shown. -->
     <bool name="config_enableNotificationsClearAll">true</bool>
@@ -368,13 +368,13 @@
     <!-- Whether or not the notification contents should be clipped to any background that is
          set on the notification container. For example, if this value is true and the background
          has rounded corners, then the contents will be clipped to those corners. -->
-    <bool name="config_clipNotificationsToOutline">false</bool>
+    <bool name="config_clipNotificationsToOutline">true</bool>
 
     <!-- Whether or not notifications that can be expanded will always be in their expanded state.
          This value only affects notifications that are not a group of notifications from the same
          applications. If this value is false, then only the first notification will be expanded;
          the other notifications need to be manually expanded by the user. -->
-    <bool name="config_alwaysExpandNonGroupedNotifications">false</bool>
+    <bool name="config_alwaysExpandNonGroupedNotifications">true</bool>
 
     <!-- Whether or not an expandable notification can be manually expanded or collapsed by the
          user. Grouped notifications are still expandable even if this value is false. -->
@@ -382,7 +382,7 @@
 
     <!-- Whether or not there should be dividing lines between child notifications when the
          group has been expanded. -->
-    <bool name="config_showDividersWhenGroupNotificationExpanded">false</bool>
+    <bool name="config_showDividersWhenGroupNotificationExpanded">true</bool>
 
     <!-- Whether or not the dividing lines should be shown when the container is expanding and
          collapsing. If this value is true, then the lines will only show when the container has
@@ -429,7 +429,7 @@
     <!-- Smart replies in notifications: Whether by default tapping on a choice should let the user
          edit the input before it is sent to the app. Developers can override this via
          RemoteInput.Builder.setEditChoicesBeforeSending. -->
-    <bool name="config_smart_replies_in_notifications_edit_choices_before_sending">false</bool>
+    <bool name="config_smart_replies_in_notifications_edit_choices_before_sending">true</bool>
 
     <!-- Smart replies in notifications: Whether smart suggestions in notifications are enabled in
          heads-up notifications.  -->
